@@ -1,0 +1,2 @@
+(()=>{var e,t={318:e=>{e.exports=function(e){return e&&e.__esModule?e:{default:e}}},567:e=>{"use strict";e.exports=window.jQuery}},i={};function r(e){var n=i[e];if(void 0!==n)return n.exports;var s=i[e]={exports:{}};return t[e](s,s.exports,r),s.exports}(0,(e=r(318)(r(567))).default)(document.body).on("wc_stripe_get_billing_prefix",(function(t,i){return(0,e.default)('[name="billing_same_as_shipping"]').is(":checked")?"billing":"shipping"})),(this.wc_stripe=this.wc_stripe||{})["wc-stripe-woofunnels-checkout"]={}})();
+//# sourceMappingURL=wc-stripe-woofunnels-checkout.js.map

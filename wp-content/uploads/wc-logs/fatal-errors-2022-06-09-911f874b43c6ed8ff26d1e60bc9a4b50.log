@@ -1,0 +1,4 @@
+2022-06-09T19:44:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\tiendaelectro\wp-includes\Requests\Transport\cURL.php en la línea 463
+
+2022-06-09T20:50:25+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 131072 bytes) en C:\xampp\htdocs\tiendaelectro\wp-content\themes\Divi\includes\builder\class-et-builder-element.php en la línea 442
+
