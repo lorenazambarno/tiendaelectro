@@ -7194,3 +7194,19 @@ function et_divi_disable_theme_builder_header_footer_on_blank_template( $layouts
 	return $layouts;
 }
 add_filter( 'et_theme_builder_template_layouts', 'et_divi_disable_theme_builder_header_footer_on_blank_template' );
+
+function my_mostrar_conectado( $atts ) {
+    $usuario_logueado= wp_get_current_user();
+
+     
+     if ($usuario_logueado->ID<>0)
+     {
+         return '<a href src="' .  get_permalink( wc_get_page_id( 'myaccount' ) ) . ' ">' . '¡Hola ' . $usuario_logueado->display_name . '!' .'</a>';
+     }
+     else
+     {
+         return '<a href="' .  get_permalink( wc_get_page_id( 'myaccount' ) ) . ' ">Acceder</a>';
+     }
+ }
+ add_shortcode( 'mostrar_conectado', 'my_mostrar_conectado' );
+//  mostrar_conectado: esto se agrega en el shortcode de de la pagina

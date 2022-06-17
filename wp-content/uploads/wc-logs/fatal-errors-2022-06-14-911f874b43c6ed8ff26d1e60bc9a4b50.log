@@ -1,0 +1,8 @@
+2022-06-14T19:47:34+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to WC_WooMercadoPago_Helpers_CurrencyConverter::get_access_token() must be an instance of WC_WooMercadoPago_Payment_Abstract, null given, called in C:\xampp\htdocs\tiendaelectro\wp-content\plugins\woocommerce-mercadopago\includes\helpers\class-wc-woomercadopago-helpers-currencyconverter.php on line 282 and defined in C:\xampp\htdocs\tiendaelectro\wp-content\plugins\woocommerce-mercadopago\includes\helpers\class-wc-woomercadopago-helpers-currencyconverter.php:204
+Stack trace:
+#0 C:\xampp\htdocs\tiendaelectro\wp-content\plugins\woocommerce-mercadopago\includes\helpers\class-wc-woomercadopago-helpers-currencyconverter.php(282): WC_WooMercadoPago_Helpers_CurrencyConverter->get_access_token(NULL)
+#1 C:\xampp\htdocs\tiendaelectro\wp-content\plugins\woocommerce-mercadopago\includes\module\class-wc-woomercadopago-module.php(388): WC_WooMercadoPago_Helpers_CurrencyConverter->load_ratio('USD', 'COP')
+#2 C:\xampp\htdocs\tiendaelectro\wp-content\plugins\woocommerce-mercadopago\includ en C:\xampp\htdocs\tiendaelectro\wp-content\plugins\woocommerce-mercadopago\includes\helpers\class-wc-woomercadopago-helpers-currencyconverter.php en la línea 204
+
+2022-06-14T20:13:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\tiendaelectro\wp-includes\Requests\Transport\cURL.php en la línea 463
+
